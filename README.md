@@ -16,35 +16,15 @@ Participants will understand the basic definitions and differences between agent
 
 ---
 
-## Lesson 2: The Augmented LLM – Building Block of Agentic Systems
+## Lesson 2: The Expanded LLM – Building Block of Agentic Systems
 
 **Learning Objectives:**  
-This lesson introduces the augmented LLM as the core building block. Learners will explore how to enhance an LLM with retrieval, tool integration, and memory modules, and understand how these augmentations support dynamic information processing.
+This lesson introduces the expanded LLM as the core building block. Learners will explore how to enhance an LLM with retrieval, tool integration, and memory modules, and understand how these expansions of the LLM's core capabilities support dynamic information processing.
 
 **Topics Covered:**
-- Augmenting LLMs with external data sources (retrieval)  
-- Integrating tools and maintaining memory  
-- Introduction to the Model Context Protocol and its benefits
-
-**Python Coding Example:**  
-A simple example demonstrating an LLM call that integrates a retrieval function and logs interactions:
-```python
-def retrieve(query):
-    # Simulate an external data fetch (e.g., via an API call)
-    return f"Retrieved information for '{query}'"
-
-def tool_process(data):
-    # Simulate a tool operation, like simple text processing
-    return data.upper()
-
-def augmented_llm(input_text):
-    retrieval_output = retrieve(input_text)
-    tool_output = tool_process(retrieval_output)
-    return f"LLM Response: Processed -> {tool_output}"
-
-# Test the augmented LLM
-print(augmented_llm("What is the weather today?"))
-```
+- Expanding LLM core capabilities with external data sources (retrieval - RAG)  
+- Integrating tools
+- Maintaining memory - short term and long term
 
 ---
 
