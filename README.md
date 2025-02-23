@@ -1,6 +1,6 @@
 # Workshop Outline: Building Effective Agents with LLMs
 
-This workshop is designed to introduce developers to the key patterns and workflows behind building effective agentic systems. Through a series of lessons, participants will learn the fundamentals of augmented LLMs, explore various workflow patterns, and understand how to design autonomous agents. Each lesson builds on the previous ones, combines theoretical concepts with practical Python coding examples, and highlights best practices and real-world use cases.
+This workshop is designed to introduce participants to the key patterns and workflows behind building effective agentic systems. Through a series of lessons, participants will learn the fundamentals of augmented LLMs, explore various workflow patterns, and understand how to design autonomous agents. Each lesson builds on the previous ones, combines theoretical concepts with practical Python coding examples, and highlights best practices and real-world use cases.
 
 ---
 
