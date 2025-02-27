@@ -108,8 +108,8 @@ completion_2 = client.beta.chat.completions.parse(
 # --------------------------------------------------------------
 
 final_response = completion_2.choices[0].message.parsed
-final_response.answer
-final_response.source
+print(final_response.answer)
+print(final_response.source)
 
 # --------------------------------------------------------------
 # Question that doesn't trigger the tool
@@ -126,4 +126,4 @@ completion_3 = client.beta.chat.completions.parse(
     tools=tools,
 )
 
-completion_3.choices[0].message.content
+print(completion_3.choices[0].message.content)

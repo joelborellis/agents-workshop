@@ -9,4 +9,6 @@ dependencies = [
     "pydantic",
     "openai",
     "requests",
+    "backoff",
+    "halo",
 ]

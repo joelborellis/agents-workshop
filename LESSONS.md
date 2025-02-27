@@ -19,12 +19,12 @@ Participants will understand the basic definitions and differences between agent
 ## Lesson 2: The Expanded LLM – Building Block of Agentic Systems
 
 **Learning Objectives:**  
-This lesson introduces the expanded LLM as the core building block. Learners will explore how to enhance an LLM with retrieval, tool integration, and memory modules, and understand how these expansions of the LLM's core capabilities support dynamic information processing.
+This lesson introduces the expanded LLM.  You will explore how to enhance an LLM with retrieval, tool integration, and memory (short and long term), and understand how these expansions of the LLM's core capabilities support dynamic information processing and enhanced responses from the LLM.
 
 **Topics Covered:**
-- Expanding LLM core capabilities with external data sources (retrieval - RAG)  
-- Integrating tools
-- Maintaining memory - short term and long term
+- Retrieval  
+- Tools (function calling)
+- Memory - short term and long term
 
 ---
 
